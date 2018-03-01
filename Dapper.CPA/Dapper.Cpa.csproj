@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Dapper.Cpa</AssemblyName>
+    <RootNamespace>Dapper.Cpa</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Convert\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Projection\" />
+    <Folder Include="Provider\" />
+    <Folder Include="Support\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+
+</Project>
